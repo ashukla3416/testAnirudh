@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nginx
+  name: dice-roller
   description: It rolls dice
   tags:
     - go
   annotations:
-    'backstage.io/kubernetes-id': nginx
+    'backstage.io/kubernetes-id': docker-desktop
 spec:
   type: service
   lifecycle: production

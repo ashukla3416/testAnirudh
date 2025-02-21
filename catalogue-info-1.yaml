@@ -6,7 +6,7 @@ metadata:
   tags:
     - go
   annotations:
-    'backstage.io/kubernetes-id': nginx
+    'backstage.io/kubernetes-id': docker-desktop
 spec:
   type: service
   lifecycle: production

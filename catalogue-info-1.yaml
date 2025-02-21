@@ -11,9 +11,3 @@ spec:
   type: service
   lifecycle: production
   owner: user:guest
-config:
-  labels:
-    io:
-      kubernetes:
-        container:
-          name: nginx
